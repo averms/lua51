@@ -1,0 +1,8 @@
+option(
+  'with_loadlib', type: 'boolean', value: false,
+  description: 'Allow Lua to "require" C extension modules'
+)
+option(
+  'with_readline', type: 'boolean', value: false,
+  description: 'Link with GNU readline to add history to the Lua interpreter'
+)
