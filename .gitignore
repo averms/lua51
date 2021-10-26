@@ -1,0 +1,4 @@
+# build directories
+/b-*/
+/one/*.out
+/cmake-*/
